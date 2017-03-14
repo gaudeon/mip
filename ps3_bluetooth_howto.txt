@@ -1,0 +1,5 @@
+Connect the ps3 controller to usb
+Run sudo ~/src/sixpair/bin/sixpair
+Disconnect controller
+Run sudo sixad --start
+Controller should now be registered as a device (likely /dev/input/js0)
